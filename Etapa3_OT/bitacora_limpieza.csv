@@ -1,0 +1,29 @@
+﻿tabla,problema,qué hicimos,resultado,registros
+todas,textos con espacios de más,"quitar espacios al inicio, al final y dobles",Corregido,49
+todas,fechas de relleno o imposibles (antes del 2000),se dejan vacías y se marcan,Corregido,57
+colaboradores,bajas con sueldo capturado,no suman a nómina ni banca (se filtran por estatus),Marcado,12
+colaboradores,bajas sin fecha de baja,se marcan para que OT capture la fecha,Marcado,18
+colaboradores,activo con fecha de baja,se marca como baja programada,Marcado,1
+colaboradores,activos con costo en 0,el costo queda vacío y se marca (no es costo real),Marcado,5
+colaboradores,activos sin departamento,se rellena con el departamento de su puesto en el catálogo de roles,Estimado,33
+colaboradores,puesto PENDIENTE pero con proyecto,se clasifica como consultor (inferido),Estimado,14
+colaboradores,puesto PENDIENTE y sin proyecto,"queda ""Sin definir"" (banca por confirmar)",Marcado,15
+colaboradores,familiares registrados como colaboradores,"tipo Familiar, no facturables",Marcado,2
+habilidades,misma descripción en distinta tecnología,nombre completo = descripción · tecnología,Corregido,26
+matriz,habilidades de colaboradores que no existen,se eliminan,Eliminado,10
+matriz,habilidades de personas dadas de baja,se eliminan,Eliminado,253
+matriz,más de 20 habilidades todas en el mismo nivel,se marca como captura masiva,Marcado,2
+clientes,país mal escrito,"se corrige a ""México""",Corregido,2
+proyectos,proyectos sin código propio,se crea codigo_proyecto (P001...),Corregido,12
+proyectos,nombre con caracteres raros,"""Asiganci´ñon"" -> ""Asignación""",Corregido,1
+proyectos,no existe el tipo de proyecto,se infiere del nombre con los 3 tipos de OT,Estimado,12
+proyectos,gerente de OT escrito distinto,mismo formato para todos,Corregido,2
+proyectos,estatus que no cuadra con fechas o asignaciones,se marca para revisión,Marcado,3
+asignaciones,sin fecha de fin,18 se marcan como indefinidas; el resto como sin fecha,Marcado,24
+asignaciones,rol PENDIENTE,se usa el puesto del colaborador como rol,Estimado,17
+asignaciones,tipo revuelto dentro del mismo proyecto,cada asignación hereda el tipo de su proyecto,Corregido,23
+asignaciones,fechas fuera del periodo del proyecto,se marcan (no sabemos cuál fecha es la buena),Marcado,3
+asignaciones,no existe horas ni % de dedicación,"se estima con la regla de OT (100% consultor, 25% gerente)",Estimado,31
+activos,marca escrita de varias formas,12 formas -> 5 marcas,Corregido,19
+activos,equipos con costo en 0,el costo queda vacío y se marca,Marcado,70
+activos,equipo asignado a personas dadas de baja,se marca como equipo por recuperar,Marcado,9

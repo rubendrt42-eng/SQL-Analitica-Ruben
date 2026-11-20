@@ -1,0 +1,52 @@
+﻿columna,tipo,descripción,origen,% vacío
+id_colaborador,texto,Clave del colaborador en la app (OTC###),de la app,0.0
+nombre,texto,Nombre del colaborador,de la app,0.0
+tipo_colaborador,texto,"Consultor, Consultor (inferido), Gerente de proyectos, Administrativo, Familiar o Sin definir",calculado,0.0
+es_facturable,entero,1 si su trabajo se le cobra a un cliente,calculado,0.0
+puesto,texto,"Puesto en OT; ""Sin definir"" si estaba en PENDIENTE",limpio,0.0
+nivel,texto,Nivel del puesto según el catálogo de roles,calculado,38.2
+departamento,texto,Área de OT,limpio,40.8
+depto_origen,texto,"De dónde salió el departamento: capturado, catálogo de roles o sin dato",bandera,0.0
+ciudad,texto,Ciudad donde trabaja,de la app,0.0
+nomina,texto,Esquema de nómina,de la app,0.0
+antiguedad_anios,decimal,Años en OT al corte,calculado,1.3
+baja_programada,entero,1 si está activo pero ya tiene fecha de baja,bandera,0.0
+cuenta_persona,entero,1 en el primer renglón de cada persona; usar para sumar nómina sin duplicar,calculado,0.0
+sueldo_total_integrado,decimal,Sueldo mensual integrado en MXN; vacío si estaba en 0,limpio,6.6
+costo_faltante,entero,1 si el sueldo estaba en 0,bandera,0.0
+costo_mensual,decimal,Sueldo integrado × 1.20 (MXN al mes),calculado,6.6
+costo_hora,decimal,Costo mensual / 176 (MXN por hora),calculado,6.6
+tarifa_min_usd_20,decimal,Tarifa mínima en USD/h para sacar 20% sobre el costo,calculado,6.6
+tarifa_min_usd_30,decimal,Tarifa mínima en USD/h para sacar 30% sobre el costo,calculado,6.6
+n_habilidades,entero,Habilidades registradas en la matriz,calculado,0.0
+n_avanzado_experto,entero,Habilidades en nivel Avanzado o Experto,calculado,0.0
+tecnologia_principal,texto,Tecnología con más habilidades en Avanzado o Experto,calculado,44.7
+captura_masiva,entero,1 si tiene más de 20 habilidades todas en el mismo nivel,bandera,0.0
+estado_banca,texto,"Asignado, En banca, Por confirmar o No facturable",calculado,0.0
+costo_banca_mes,decimal,Costo mensual si está en banca (MXN),calculado,71.1
+codigo_proyecto,texto,Clave nueva del proyecto (P###),limpio,59.2
+codigo_cliente,texto,Clave del cliente (C####),limpio,59.2
+cliente,texto,Nombre del cliente,limpio,59.2
+proyecto,texto,Nombre del proyecto,limpio,59.2
+tipo_proyecto,texto,"Implementación, Póliza de soporte o Asignación de recursos (inferido del nombre)",estimado,59.2
+rol_en_proyecto,texto,"Rol en la asignación; si estaba PENDIENTE, el puesto del colaborador",estimado,75.0
+rol_origen,texto,"De dónde salió el rol: capturado, puesto del colaborador o sin dato",bandera,59.2
+inicio_asignacion,fecha,Fecha de inicio; vacía si era de relleno,limpio,86.8
+fin_asignacion,fecha,Fecha de fin,limpio,90.8
+es_indefinida,entero,1 si la asignación no tiene fin porque es indefinida,calculado,59.2
+asignacion_vigente,entero,1 si estaba en curso al 16 nov 2026,calculado,59.2
+dias_para_liberarse,entero,Días entre el corte y la fecha de fin,calculado,90.8
+ventana_liberacion,texto,"0 a 30, 31 a 60, 61 a 90, más de 90 días, indefinida o sin fecha",calculado,59.2
+dedicacion,decimal,"Fracción de su tiempo en el proyecto (1.0 consultor, 0.25 gerente)",estimado,59.2
+horas_mes,decimal,176 × dedicación,estimado,59.2
+costo_asignacion_mes,decimal,Horas al mes × costo por hora (MXN),estimado,59.2
+ingreso_mes_40usd,decimal,Ingreso al mes si se cobra a 40 USD/h (MXN),estimado,59.2
+ingreso_mes_45usd,decimal,Ingreso al mes si se cobra a 45 USD/h (MXN),estimado,59.2
+ingreso_mes_50usd,decimal,Ingreso al mes si se cobra a 50 USD/h (MXN),estimado,59.2
+margen_40usd,decimal,(Ingreso − costo) / costo con 40 USD/h,estimado,59.2
+margen_45usd,decimal,(Ingreso − costo) / costo con 45 USD/h,estimado,59.2
+margen_50usd,decimal,(Ingreso − costo) / costo con 50 USD/h,estimado,59.2
+fuera_de_periodo,entero,1 si sus fechas se salen del periodo del proyecto,bandera,59.2
+puntaje_confianza,decimal,Porcentaje de campos clave completos (0 a 1),bandera,0.0
+semaforo,texto,"Verde (≥0.8), Amarillo (0.5 a 0.79) o Rojo (<0.5)",bandera,0.0
+campos_por_revisar,texto,Qué campos clave le faltan,bandera,17.1
