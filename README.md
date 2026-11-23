@@ -2,7 +2,7 @@
 
 Repositorio individual de **Rubén David Rodríguez Treviño** (A01198984) para actividades de SQL y analítica de datos.
 
-## Reto OT Consulting · TI2006B
+## Reto OT Consulting (TI2006B)
 
 | Carpeta | Qué hay |
 |---|---|

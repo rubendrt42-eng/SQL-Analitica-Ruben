@@ -1,11 +1,13 @@
-# Etapa 3 · Limpieza y preparación de los datos de OT Consulting
+# Etapa 3: Limpieza y preparación de los datos de OT Consulting
 
-**Equipo 1** · Soporte analítico para la toma de decisiones (TI2006B, Gpo 301) · Socio formador: OT Consulting México · noviembre 2026
+**Equipo 1**, Soporte analítico para la toma de decisiones (TI2006B, Gpo 301)
 
-- Rubén David Rodríguez Treviño · A01198984
-- Erika Esquivel Correa · A00841206
-- Iván Fundora Velasco · A01198822
-- Julen Benages Díaz · A01832758
+Socio formador: OT Consulting México, noviembre 2026
+
+- Rubén David Rodríguez Treviño (A01198984)
+- Erika Esquivel Correa (A00841206)
+- Iván Fundora Velasco (A01198822)
+- Julen Benages Díaz (A01832758)
 
 En la etapa 2 encontramos los errores de los datos de la app de OT. En esta etapa los corregimos con Python y SQL y armamos una sola tabla limpia, lista para conectarla al tablero.
 
@@ -23,10 +25,10 @@ Los CSV de OT no están aquí porque vienen de su app interna. Para correr el no
 
 Cada problema terminó en uno de cuatro resultados:
 
-- **Corregido:** el dato estaba mal y lo arreglamos (57 fechas de relleno, 49 textos con espacios de más, país mal escrito, marcas, proyectos sin código).
-- **Eliminado:** el registro no tenía sentido (habilidades de personas dadas de baja o que no existen).
-- **Estimado:** el dato no existía, pero lo pudimos deducir con una regla de OT (departamento, tipo de proyecto, rol, dedicación).
-- **Marcado:** el dato falta y solo OT lo puede capturar (29 activos sin puesto, 5 sin costo, asignaciones sin horas ni tarifa).
+- Corregido: el dato estaba mal y lo arreglamos (57 fechas de relleno, 49 textos con espacios de más, país mal escrito, marcas, proyectos sin código).
+- Eliminado: el registro no tenía sentido (habilidades de personas dadas de baja o que no existen).
+- Estimado: el dato no existía, pero lo pudimos deducir con una regla de OT (departamento, tipo de proyecto, rol, dedicación).
+- Marcado: el dato falta y solo OT lo puede capturar (29 activos sin puesto, 5 sin costo, asignaciones sin horas ni tarifa).
 
 La decisión más importante fue quién cuenta como facturable, porque de ahí sale la banca. A los que tienen puesto PENDIENTE pero están en un proyecto los contamos como consultores; los que no tienen ni puesto ni proyecto quedaron como "banca por confirmar".
 

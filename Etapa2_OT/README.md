@@ -1,7 +1,8 @@
-# Etapa 2 · Exploración de datos de OT Consulting
+# Etapa 2: Exploración de datos de OT Consulting
 
-**Rubén David Rodríguez Treviño** (A01198984) · Soporte analítico para la toma de decisiones (TI2006B, Gpo 301)
-Socio formador: OT Consulting México · 17 de noviembre de 2026
+**Rubén David Rodríguez Treviño** (A01198984), Soporte analítico para la toma de decisiones (TI2006B, Gpo 301)
+
+Socio formador: OT Consulting México, 17 de noviembre de 2026
 
 Aquí documento lo que hice en la etapa 2 del reto: explorar los datos de la app de OT archivo por archivo y columna por columna. El código está en el notebook de esta carpeta y en este documento explico qué encontré.
 
@@ -85,10 +86,10 @@ En fechas, hay ingresos desde 2003, pero las asignaciones con fechas reales solo
 
 **Principales faltantes**
 
-- **Asignaciones:** 29 de 31 tienen el rol PENDIENTE y 24 no tienen fecha de fin.
-- **Colaboradores activos:** de 75, hay 29 con puesto PENDIENTE, 64 sin departamento, 5 con costo en cero y 28 sin habilidades registradas.
-- **Proyectos:** de 12, hay 9 sin fecha de fin, 6 sin fecha de inicio y 6 sin gerente de OT.
-- **Activos:** 70 de 123 tienen costo en cero y ninguno tiene garantía registrada.
+- Asignaciones: 29 de 31 tienen el rol PENDIENTE y 24 no tienen fecha de fin.
+- Colaboradores activos: de 75, hay 29 con puesto PENDIENTE, 64 sin departamento, 5 con costo en cero y 28 sin habilidades registradas.
+- Proyectos: de 12, hay 9 sin fecha de fin, 6 sin fecha de inicio y 6 sin gerente de OT.
+- Activos: 70 de 123 tienen costo en cero y ninguno tiene garantía registrada.
 
 **Errores e inconsistencias**
 
@@ -100,7 +101,7 @@ En fechas, hay ingresos desde 2003, pero las asignaciones con fechas reales solo
 
 Lo más delicado es la estructura: los proyectos no tienen código único, varias tablas se relacionan por nombre, PENDIENTE se acepta como rol y los campos importantes no son obligatorios.
 
-Además, aparecen dos familiares como activos con costo de nómina. Los seis usuarios tienen rol Administrador y la colección guarda contraseñas como un campo más. No las extraje, pero es un tema que considero necesario avisar al socio.
+Además, aparecen dos familiares como activos con costo de nómina. Los seis usuarios tienen rol Administrador y además encontré un tema de seguridad en la colección de usuarios que considero necesario avisar al socio.
 
 **Mi lectura:** varios errores vienen de que la app permite guardar datos incompletos. Y justo faltan los campos relacionados con el dinero que necesita el director para analizar la rentabilidad.
 
@@ -108,12 +109,12 @@ Además, aparecen dos familiares como activos con costo de nómina. Los seis usu
 
 **Reglas que explicó OT en la entrevista**
 
-1. **Costo por hora:** (sueldo total integrado × 1.20) / 176 horas mensuales. El 20% adicional corresponde al costo administrativo.
-2. **Cotización:** cada semana se convierte en 40 horas y se multiplica por la tarifa del rol.
-3. **Margen objetivo:** 20 a 30% sobre el costo. Se agrega 15 a 20% en proyectos complejos y una comisión de 3 a 5% cuando un socio recomienda al cliente.
-4. **Dedicación:** un consultor suele estar en un proyecto; un gerente puede atender 3 o 4, dedicando 20 a 30% de su tiempo a cada uno.
-5. **Habilidades:** se evalúan cada seis meses como Básico, Intermedio, Avanzado o Experto.
-6. **Tipos de proyecto:** implementación, póliza de soporte o asignación indefinida.
+1. Costo por hora: (sueldo total integrado × 1.20) / 176 horas mensuales. El 20% adicional corresponde al costo administrativo.
+2. Cotización: cada semana se convierte en 40 horas y se multiplica por la tarifa del rol.
+3. Margen objetivo: 20 a 30% sobre el costo. Se agrega 15 a 20% en proyectos complejos y una comisión de 3 a 5% cuando un socio recomienda al cliente.
+4. Dedicación: un consultor suele estar en un proyecto; un gerente puede atender 3 o 4, dedicando 20 a 30% de su tiempo a cada uno.
+5. Habilidades: se evalúan cada seis meses como Básico, Intermedio, Avanzado o Experto.
+6. Tipos de proyecto: implementación, póliza de soporte o asignación indefinida.
 
 **Reglas que propongo para preparar los datos**
 
@@ -211,12 +212,12 @@ Para mí, primero habría que mejorar los datos de costo, disponibilidad y marge
 
 Después de revisar la información, propongo incorporar estos campos para poder responder las preguntas del director:
 
-- **Proyectos:** código único, tipo, monto vendido, moneda, horas vendidas y gerente ligado a colaboradores. Así se podría calcular el margen e identificar correctamente cada proyecto.
-- **Asignaciones:** código del rol, horas o porcentaje de dedicación y tarifa por hora. Con eso podría calcular tanto el ingreso como el costo de cada asignación.
-- **Roles:** tarifa estándar y moneda, para estimar ingresos cuando no exista una tarifa negociada. Es importante porque las tarifas se manejan en dólares y los costos en pesos.
-- **Colaboradores:** si son facturables, si son empleados o familiares y su costo por hora. Esto permitiría calcular la banca sin mezclar personal administrativo.
-- **Matriz de habilidades:** fecha de evaluación, porque OT evalúa cada seis meses y hoy no se sabe qué tan vigente está el nivel registrado.
-- **Clientes:** días de crédito, ya que algunos pagan hasta 120 días después y eso afecta la proyección del dinero que recibe la empresa.
+- Proyectos: código único, tipo, monto vendido, moneda, horas vendidas y gerente ligado a colaboradores. Así se podría calcular el margen e identificar correctamente cada proyecto.
+- Asignaciones: código del rol, horas o porcentaje de dedicación y tarifa por hora. Con eso podría calcular tanto el ingreso como el costo de cada asignación.
+- Roles: tarifa estándar y moneda, para estimar ingresos cuando no exista una tarifa negociada. Es importante porque las tarifas se manejan en dólares y los costos en pesos.
+- Colaboradores: si son facturables, si son empleados o familiares y su costo por hora. Esto permitiría calcular la banca sin mezclar personal administrativo.
+- Matriz de habilidades: fecha de evaluación, porque OT evalúa cada seis meses y hoy no se sabe qué tan vigente está el nivel registrado.
+- Clientes: días de crédito, ya que algunos pagan hasta 120 días después y eso afecta la proyección del dinero que recibe la empresa.
 
 Considero que estos campos son necesarios para que la información de la app realmente pueda utilizarse en los análisis que necesita OT Consulting.
 
