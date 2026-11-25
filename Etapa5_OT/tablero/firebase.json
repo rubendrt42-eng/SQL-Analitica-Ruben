@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "target": "tablero",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*"],
+    "headers": [
+      { "source": "/datos_tablero.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+    ]
+  }
+}

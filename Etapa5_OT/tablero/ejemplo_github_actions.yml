@@ -1,0 +1,25 @@
+# Ejemplo: actualiza el tablero cada lunes a las 6:00 (hora de Monterrey) y lo publica en Firebase Hosting.
+# Secretos que OT tiene que dar de alta en GitHub: FIREBASE_LECTURA (JSON de la cuenta de solo lectura)
+# y FIREBASE_TOKEN_HOSTING (cuenta que solo puede publicar Hosting).
+name: Actualizar tablero de Direccion
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: echo '${{ secrets.FIREBASE_LECTURA }}' > clave.json
+      - run: python actualizar_tablero.py --credenciales clave.json
+      - run: rm clave.json
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: '${{ secrets.FIREBASE_TOKEN_HOSTING }}'
+          channelId: live
+          target: tablero
