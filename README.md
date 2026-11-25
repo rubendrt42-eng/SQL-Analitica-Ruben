@@ -10,3 +10,4 @@ Repositorio individual de **Rubén David Rodríguez Treviño** (A01198984) para 
 | [Etapa2_OT](Etapa2_OT) | Exploración de los datos de la app de OT (individual) |
 | [Etapa3_OT](Etapa3_OT) | Limpieza y preparación de los datos (equipo) |
 | [Etapa4_OT](Etapa4_OT) | Modelo relacional sugerido y modelo dimensional (equipo) |
+| [Etapa5_OT](Etapa5_OT) | Modelo dimensional físico, consultas de las 12 preguntas y tablero para Dirección (equipo) |
