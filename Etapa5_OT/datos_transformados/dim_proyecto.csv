@@ -1,0 +1,14 @@
+﻿sk_proyecto,codigo_proyecto,proyecto,tipo_proyecto
+0,P000,Sin asignación,No aplica
+1,P001,AMS Manufactura,Póliza de soporte
+2,P002,Soporte AMS Manufacta,Póliza de soporte
+3,P003,Asignación indefinida,Asignación de recursos
+4,P004,Marazzi,Implementación
+5,P005,Asignación EBS temporal (3 meses),Asignación de recursos
+6,P006,Asignación Funcional-Técnico (4 meses),Asignación de recursos
+7,P007,Migración eBs,Implementación
+8,P008,Soporte Oracle Cloud,Póliza de soporte
+9,P009,Desarrollo de Indicadores,Implementación
+10,P010,SHINE - Asignación de recursos de apoyo,Asignación de recursos
+11,P011,Soporte DBA,Póliza de soporte
+12,P012,Hosting eBS,Póliza de soporte

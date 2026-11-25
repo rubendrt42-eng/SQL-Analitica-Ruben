@@ -1,0 +1,19 @@
+﻿sk_calidad,semaforo,campos_por_revisar
+1,Amarillo,"fecha de fin, rol"
+2,Amarillo,"fecha de inicio, rol"
+3,Amarillo,habilidades
+4,Amarillo,"habilidades, fecha de inicio, rol"
+5,Amarillo,"habilidades, rol"
+6,Amarillo,puesto
+7,Amarillo,"puesto, fecha de fin"
+8,Amarillo,"puesto, fecha de inicio, rol"
+9,Amarillo,"puesto, habilidades, fecha de fin"
+10,Amarillo,"puesto, rol"
+11,Rojo,"costo, habilidades"
+12,Rojo,"costo, puesto"
+13,Rojo,"costo, puesto, habilidades"
+14,Rojo,"puesto, fecha de inicio, fecha de fin, rol"
+15,Rojo,"puesto, habilidades"
+16,Rojo,"puesto, habilidades, fecha de inicio, fecha de fin, rol"
+17,Verde,
+18,Verde,rol

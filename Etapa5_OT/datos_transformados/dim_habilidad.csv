@@ -1,0 +1,72 @@
+﻿sk_habilidad,codigo_habilidad,descripcion,tecnologia,tipo,nombre_completo
+1,H0002,GL,Oracle eBS,HARD,GL · Oracle eBS
+2,H0003,FSG,Oracle eBS,HARD,FSG · Oracle eBS
+3,H0004,SLA,Oracle eBS,HARD,SLA · Oracle eBS
+4,H0005,CE,Oracle eBS,HARD,CE · Oracle eBS
+5,H0006,FA,Oracle eBS,HARD,FA · Oracle eBS
+6,H0007,XTR,Oracle eBS,HARD,XTR · Oracle eBS
+7,H0008,eBTAX,Oracle eBS,HARD,eBTAX · Oracle eBS
+8,H0009,PO,Oracle eBS,HARD,PO · Oracle eBS
+9,H0010,AP,Oracle eBS,HARD,AP · Oracle eBS
+10,H0011,iEXP,Oracle eBS,HARD,iEXP · Oracle eBS
+11,H0012,!PROC,Oracle eBS,HARD,!PROC · Oracle eBS
+12,H0013,!SUP,Oracle eBS,HARD,!SUP · Oracle eBS
+13,H0014,AME,Oracle eBS,HARD,AME · Oracle eBS
+14,H0015,AR,Oracle eBS,HARD,AR · Oracle eBS
+15,H0016,OM,Oracle eBS,HARD,OM · Oracle eBS
+16,H0017,INV,Oracle eBS,HARD,INV · Oracle eBS
+17,H0018,CM,Oracle eBS,HARD,CM · Oracle eBS
+18,H0019,QP,Oracle eBS,HARD,QP · Oracle eBS
+19,H0020,WMS,Oracle eBS,HARD,WMS · Oracle eBS
+20,H0021,MSCA,Oracle eBS,HARD,MSCA · Oracle eBS
+21,H0022,MFG,Oracle eBS,HARD,MFG · Oracle eBS
+22,H0023,OPM,Oracle eBS,HARD,OPM · Oracle eBS
+23,H0024,MPS MRP,Oracle eBS,HARD,MPS MRP · Oracle eBS
+24,H0025,QA,Oracle eBS,HARD,QA · Oracle eBS
+25,H0026,PAY,Oracle eBS,HARD,PAY · Oracle eBS
+26,H0027,HR,Oracle eBS,HARD,HR · Oracle eBS
+27,H0028,TALEO,Oracle eBS,HARD,TALEO · Oracle eBS
+28,H0029,PRJ,Oracle eBS,HARD,PRJ · Oracle eBS
+29,H0030,eAM,Oracle eBS,HARD,eAM · Oracle eBS
+30,H0031,GL,Oracle Fusion Cloud,HARD,GL · Oracle Fusion Cloud
+31,H0032,SLA,Oracle Fusion Cloud,HARD,SLA · Oracle Fusion Cloud
+32,H0033,CE,Oracle Fusion Cloud,HARD,CE · Oracle Fusion Cloud
+33,H0034,FA,Oracle Fusion Cloud,HARD,FA · Oracle Fusion Cloud
+34,H0035,TAX,Oracle Fusion Cloud,HARD,TAX · Oracle Fusion Cloud
+35,H0036,PO,Oracle Fusion Cloud,HARD,PO · Oracle Fusion Cloud
+36,H0037,AP,Oracle Fusion Cloud,HARD,AP · Oracle Fusion Cloud
+37,H0038,AME,Oracle Fusion Cloud,HARD,AME · Oracle Fusion Cloud
+38,H0039,AR,Oracle Fusion Cloud,HARD,AR · Oracle Fusion Cloud
+39,H0040,OM,Oracle Fusion Cloud,HARD,OM · Oracle Fusion Cloud
+40,H0041,INV,Oracle Fusion Cloud,HARD,INV · Oracle Fusion Cloud
+41,H0042,CM,Oracle Fusion Cloud,HARD,CM · Oracle Fusion Cloud
+42,H0043,Landed Cost,Oracle Fusion Cloud,HARD,Landed Cost · Oracle Fusion Cloud
+43,H0044,WMS,Oracle Fusion Cloud,HARD,WMS · Oracle Fusion Cloud
+44,H0045,MFG,Oracle Fusion Cloud,HARD,MFG · Oracle Fusion Cloud
+45,H0046,BC,Oracle Fusion Cloud,HARD,BC · Oracle Fusion Cloud
+46,H0047,Expenses,Oracle Fusion Cloud,HARD,Expenses · Oracle Fusion Cloud
+47,H0048,DBA,Plataformas Tecnológicas,HARD,DBA · Plataformas Tecnológicas
+48,H0049,OBI,Plataformas Tecnológicas,HARD,OBI · Plataformas Tecnológicas
+49,H0050,OCI,Plataformas Tecnológicas,HARD,OCI · Plataformas Tecnológicas
+50,H0051,ODI,Plataformas Tecnológicas,HARD,ODI · Plataformas Tecnológicas
+51,H0052,PLSQL,Plataformas Tecnológicas,HARD,PLSQL · Plataformas Tecnológicas
+52,H0053,FORMS,Plataformas Tecnológicas,HARD,FORMS · Plataformas Tecnológicas
+53,H0054,FORMS PERSONALIZADOS,Plataformas Tecnológicas,HARD,FORMS PERSONALIZADOS · Plataformas Tecnológicas
+54,H0055,REPORTS,Plataformas Tecnológicas,HARD,REPORTS · Plataformas Tecnológicas
+55,H0056,PUBLISHER,Plataformas Tecnológicas,HARD,PUBLISHER · Plataformas Tecnológicas
+56,H0057,APEX,Plataformas Tecnológicas,HARD,APEX · Plataformas Tecnológicas
+57,H0058,OAF,Plataformas Tecnológicas,HARD,OAF · Plataformas Tecnológicas
+58,H0059,DISCOVERER,Plataformas Tecnológicas,HARD,DISCOVERER · Plataformas Tecnológicas
+59,H0060,MOBILE,Plataformas Tecnológicas,HARD,MOBILE · Plataformas Tecnológicas
+60,H0061,PHP,Plataformas Tecnológicas,HARD,PHP · Plataformas Tecnológicas
+61,H0062,FUSE,Plataformas Tecnológicas,HARD,FUSE · Plataformas Tecnológicas
+62,H0063,.NET,Plataformas Tecnológicas,HARD,.NET · Plataformas Tecnológicas
+63,H0064,ECLIPSE,Plataformas Tecnológicas,HARD,ECLIPSE · Plataformas Tecnológicas
+64,H0065,ANDROID,Plataformas Tecnológicas,HARD,ANDROID · Plataformas Tecnológicas
+65,H0066,IOS,Plataformas Tecnológicas,HARD,IOS · Plataformas Tecnológicas
+66,H0067,JAVA,Plataformas Tecnológicas,HARD,JAVA · Plataformas Tecnológicas
+67,H0068,Oracle EBS,Oracle eBS,HARD,Oracle EBS · Oracle eBS
+68,S0001,NIVEL DE INGLES,Idiomas,SOFT,NIVEL DE INGLES · Idiomas
+69,S0002,CERTIFICADO ORACLE,Certificaciones,SOFT,CERTIFICADO ORACLE · Certificaciones
+70,S0004,Empatia,Otros,SOFT,Empatia · Otros
+71,S0005,Manejo de Conflictos,Otros,SOFT,Manejo de Conflictos · Otros

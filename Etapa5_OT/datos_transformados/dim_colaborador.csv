@@ -1,0 +1,76 @@
+﻿sk_colaborador,id_colaborador,tipo_colaborador,es_facturable,puesto,nivel,departamento,depto_origen,ciudad,antiguedad_anios,baja_programada,sueldo_total_integrado,costo_faltante,costo_mensual,costo_hora,tarifa_min_usd_20,tarifa_min_usd_30,n_habilidades,n_avanzado_experto,tecnologia_principal,captura_masiva,estado_banca
+1,OTC003,Sin definir,0,Sin definir,,,sin dato,Monterrey,10.4,0,59730.7,0,71676.84,407.25,26.345,28.541,51,12,Oracle eBS,0,Por confirmar
+2,OTC004,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD SENIOR,Senior,Operaciones y Soporte,capturado,Toluca,4.3,0,59397.28,0,71276.74,404.98,26.198,28.381,0,0,,0,Asignado
+3,OTC005,Consultor,1,CONSULTOR TÉCNICO JAVA SENIOR,Senior,Operaciones y Soporte,capturado,Monterrey,10.8,0,67069.18,0,80483.02,457.29,29.582,32.047,8,2,Plataformas Tecnológicas,0,Asignado
+4,OTC006,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,10.7,0,65513.35,0,78616.02,446.68,28.896,31.304,26,14,Oracle eBS,0,Asignado
+5,OTC009,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,4.0,0,109546.5,0,131455.8,746.91,48.317,52.344,9,2,Plataformas Tecnológicas,0,Asignado
+6,OTC010,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD Y EBS SENIOR,Senior,Operaciones y Soporte,capturado,Edo de México,2.3,0,85666.88,0,102800.26,584.09,37.785,40.934,0,0,,0,En banca
+7,OTC013,Administrativo,0,ADMINISTRACIÓN FINANZAS SENIOR,Senior,Administración y Finanzas,catálogo de roles,Monterrey,1.8,0,,1,,,,,0,0,,0,No facturable
+8,OTC014,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,1.5,0,85511.26,0,102613.51,583.03,37.716,40.859,33,19,Oracle eBS,0,Asignado
+9,OTC015,Sin definir,0,Sin definir,,,sin dato,Monterrey,9.2,0,45742.87,0,54891.44,311.88,20.176,21.857,24,12,Oracle Fusion Cloud,0,Por confirmar
+10,OTC016,Consultor,1,CONSULTOR NETSUITE ORACLE SENIOR,Senior,Operaciones y Soporte,capturado,Jalisco,0.3,0,51116.0,0,61339.2,348.52,22.546,24.424,23,9,Oracle Fusion Cloud,0,En banca
+11,OTC017,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,10.9,0,47691.4,0,57229.68,325.17,21.035,22.788,33,22,Oracle eBS,0,En banca
+12,OTC019,Administrativo,0,ASESOR COMERCIAL SENIOR,Senior,Ventas,capturado,Monterrey,2.1,0,22498.87,0,26998.64,153.4,9.924,10.751,0,0,,0,No facturable
+13,OTC022,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,2.1,0,79572.04,0,95486.45,542.54,35.097,38.021,1,0,,0,Asignado
+14,OTC023,Gerente de proyectos,1,GERENTE DE PROYECTOS Y OPERACIONES,Gerente,Operaciones y Soporte,catálogo de roles,San Luis Potosí,9.7,0,49820.0,0,59784.0,339.68,21.974,23.805,0,0,,0,En banca
+15,OTC024,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD Y EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,8.3,0,45830.21,0,54996.25,312.48,20.214,21.899,13,12,Oracle Fusion Cloud,0,En banca
+16,OTC026,Consultor,1,CONSULTOR TÉCNICO ORACLE CLOUD SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Edo de México,3.1,0,42641.71,0,51170.05,290.74,18.808,20.375,59,39,Oracle eBS,0,En banca
+17,OTC029,Sin definir,0,Sin definir,,,sin dato,Queretaro,4.9,1,135460.71,0,162552.85,923.6,59.747,64.726,1,1,Idiomas,0,Por confirmar
+18,OTC031,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,2.2,0,33985.6,0,40782.72,231.72,14.99,16.239,68,12,Plataformas Tecnológicas,0,Asignado
+19,OTC032,Consultor,1,CONSULTOR TÉCNICO ORACLE CLOUD GERENTE,Gerente,Operaciones y Soporte,catálogo de roles,Monterrey,13.1,0,45830.21,0,54996.25,312.48,20.214,21.899,0,0,,0,En banca
+20,OTC034,Consultor,1,CONSULTOR DBA ORACLE SENIOR,Senior,Operaciones y Soporte,capturado,CDMX,13.4,0,61533.03,0,73839.64,419.54,27.14,29.402,12,4,Plataformas Tecnológicas,0,En banca
+21,OTC036,Consultor,1,CONSULTOR TÉCNICO RPA SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,1.1,0,38524.32,0,46229.18,262.67,16.992,18.408,23,0,,0,En banca
+22,OTC038,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD Y EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Zacatepec,1.5,0,57604.32,0,69125.18,392.76,25.407,27.525,18,9,Oracle eBS,0,En banca
+23,OTC039,Consultor,1,CONSULTOR TÉCNICO RPA SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,8.2,0,53568.65,0,64282.38,365.24,23.627,25.596,0,0,,0,En banca
+24,OTC040,Sin definir,0,Sin definir,,,sin dato,Monterrey,5.6,0,34170.21,0,41004.25,232.98,15.071,16.327,15,9,Plataformas Tecnológicas,0,Por confirmar
+25,OTC041,Sin definir,0,Sin definir,,,sin dato,Cananea,4.4,0,29927.35,0,35912.82,204.05,13.2,14.3,68,9,Plataformas Tecnológicas,0,Por confirmar
+26,OTC042,Consultor,1,CONSULTOR KRONOS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,4.0,0,38080.8,0,45696.96,259.64,16.796,18.196,22,0,,1,Asignado
+27,OTC043,Sin definir,0,Sin definir,,,sin dato,Puebla,6.0,0,,1,,,,,48,2,Plataformas Tecnológicas,0,Por confirmar
+28,OTC044,Consultor,1,CONSULTOR DBA ORACLE SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Tuxtla Gutierrez Chiapas,2.2,0,106049.9,0,127259.88,723.07,46.775,50.673,6,5,Plataformas Tecnológicas,0,Asignado
+29,OTC046,Sin definir,0,Sin definir,,,sin dato,Edo de México,0.7,0,52304.32,0,62765.18,356.62,23.07,24.992,16,11,Oracle Fusion Cloud,0,Por confirmar
+30,OTC049,Administrativo,0,ADMINISTRACIÓN FINANZAS GERENTE,Gerente,Administración y Finanzas,catálogo de roles,MTY,0.2,0,,1,,,,,0,0,,0,No facturable
+31,OTC050,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD Y EBS ANALISTA,Analista,Operaciones y Soporte,catálogo de roles,CDMX,1.3,0,36404.32,0,43685.18,248.21,16.057,17.395,17,5,Oracle eBS,0,Asignado
+32,OTC051,Sin definir,0,Sin definir,,,sin dato,Monterrey,4.5,0,38202.56,0,45843.07,260.47,16.85,18.254,0,0,,0,Por confirmar
+33,OTC055,Sin definir,0,Sin definir,,,sin dato,Chihuahua,3.2,0,44234.57,0,53081.48,301.6,19.51,21.136,14,7,Oracle eBS,0,Por confirmar
+34,OTC056,Consultor (inferido),1,Sin definir,,,sin dato,Queretaro,2.2,0,63021.39,0,75625.67,429.69,27.797,30.113,15,3,Plataformas Tecnológicas,0,Asignado
+35,OTC057,Sin definir,0,Sin definir,,,sin dato,Edo de México,3.7,0,63035.48,0,75642.58,429.79,27.803,30.12,12,3,Plataformas Tecnológicas,0,Por confirmar
+36,OTC058,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,13.4,0,61048.62,0,73258.34,416.24,26.927,29.17,40,11,Oracle eBS,0,Asignado
+37,OTC059,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD Y EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,2.2,0,71689.12,0,86026.94,488.79,31.62,34.255,14,5,Oracle Fusion Cloud,0,Asignado
+38,OTC060,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,2.3,0,45237.36,0,54284.83,308.44,19.953,21.615,21,1,Plataformas Tecnológicas,0,Asignado
+39,OTC062,Consultor,1,CONSULTOR TÉCNICO WEB SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,2.1,0,73761.12,0,88513.34,502.92,32.534,35.245,42,1,Plataformas Tecnológicas,0,Asignado
+40,OTC063,Sin definir,0,Sin definir,,,sin dato,CDMX,13.8,0,48240.21,0,57888.25,328.91,21.277,23.05,0,0,,0,Por confirmar
+41,OTC067,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,6.2,0,57231.54,0,68677.85,390.22,25.243,27.347,3,1,Idiomas,0,Asignado
+42,OTC069,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,3.2,0,56278.5,0,67534.2,383.72,24.823,26.891,19,6,Oracle eBS,0,En banca
+43,OTC071,Consultor,1,CONSULTOR TÉCNICO ORACLE CLOUD SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Tlaxcala,1.8,0,82074.3,0,98489.16,559.6,36.2,39.217,48,25,Oracle eBS,0,En banca
+44,OTC073,Sin definir,0,Sin definir,,,sin dato,Monterrey,13.5,0,,1,,,,,0,0,,0,Por confirmar
+45,OTC074,Administrativo,0,ADMINISTRACIÓN FINANZAS SENIOR,Senior,Administración y Finanzas,catálogo de roles,Monterrey,19.8,0,30043.71,0,36052.45,204.84,13.251,14.356,0,0,,0,No facturable
+46,OTC075,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,5.0,0,69962.07,0,83954.48,477.01,30.858,33.43,0,0,,0,En banca
+47,OTC077,Sin definir,0,Sin definir,,,sin dato,Edo de México,3.8,0,45824.57,0,54989.48,312.44,20.212,21.896,22,4,Plataformas Tecnológicas,0,Por confirmar
+48,OTC078,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD SENIOR,Senior,Operaciones y Soporte,catálogo de roles,CDMX,2.5,0,86827.27,0,104192.72,592.0,38.297,41.488,16,7,Oracle Fusion Cloud,0,Asignado
+49,OTC079,Consultor (inferido),1,Sin definir,,,sin dato,Tlaxcala,2.0,0,52036.37,0,62443.64,354.79,22.952,24.864,15,6,Plataformas Tecnológicas,0,Asignado
+50,OTC080,Administrativo,0,ADMINISTRACIÓN FINANZAS GERENTE,Gerente,Administración y Finanzas,catálogo de roles,Monterrey,9.2,0,,1,,,,,0,0,,0,No facturable
+51,OTC081,Consultor,1,CONSULTOR FUNCIONAL ORACLE CLOUD SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Edo de México,3.1,0,51572.92,0,61887.5,351.63,22.747,24.643,0,0,,0,Asignado
+52,OTC082,Consultor,1,CONSULTOR TÉCNICO JAVA SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Tlaxcala,1.2,0,28622.64,0,34347.17,195.15,12.625,13.677,0,0,,0,En banca
+53,OTC083,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS Y CLOUD SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Edo de México,3.6,0,43032.96,0,51639.55,293.41,18.98,20.562,68,13,Oracle eBS,0,En banca
+54,OTC084,Administrativo,0,GERENTE RECURSOS HUMANOS,Gerente,Recursos Humanos,catálogo de roles,Monterrey,1.4,0,32694.32,0,39233.18,222.92,14.42,15.622,0,0,,0,No facturable
+55,OTC085,Sin definir,0,Sin definir,,,sin dato,Cuernavaca,12.1,0,36290.21,0,43548.25,247.43,16.006,17.34,34,9,Plataformas Tecnológicas,0,Por confirmar
+56,OTC086,Consultor,1,CONSULTOR TÉCNICO JAVA SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Hidalgo,2.1,0,66961.3,0,80353.56,456.55,29.535,31.996,14,7,Plataformas Tecnológicas,0,Asignado
+57,OTC087,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,0.7,0,60513.96,0,72616.75,412.6,26.691,28.915,0,0,,0,Asignado
+58,OTC088,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,8.2,0,71800.0,0,86160.0,489.55,31.669,34.308,0,0,,0,En banca
+59,OTC089,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,23.6,0,129689.63,0,155627.56,884.25,57.202,61.969,32,20,Oracle eBS,0,Asignado
+60,OTC090,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,9.3,0,26326.21,0,31591.45,179.5,11.612,12.579,12,6,Plataformas Tecnológicas,0,En banca
+61,OTC094,Consultor,1,CONSULTOR ORACLE CLOUD Y EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,CDMX,5.1,0,53000.0,0,63600.0,361.36,23.377,25.325,68,25,Oracle eBS,0,En banca
+62,OTC095,Gerente de proyectos,1,GERENTE DE PROYECTOS Y OPERACIONES,Gerente,Operaciones y Soporte,catálogo de roles,Monterrey,9.0,0,100933.4,0,121120.08,688.18,44.519,48.228,68,0,,1,Asignado
+63,OTC096,Sin definir,0,Sin definir,,,sin dato,Edo de México,10.5,0,57706.41,0,69247.69,393.45,25.452,27.574,28,11,Oracle Fusion Cloud,0,Por confirmar
+64,OTC097,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,11.0,0,107739.87,0,129287.84,734.59,47.521,51.481,24,5,Oracle eBS,0,Asignado
+65,OTC099,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,13.1,0,55485.37,0,66582.44,378.31,24.473,26.512,0,0,,0,En banca
+66,OTC100,Consultor (inferido),1,Sin definir,,,sin dato,Puebla,8.6,0,77450.28,0,92940.34,528.07,34.161,37.008,0,0,,0,Asignado
+67,OTC101,Consultor,1,CONSULTOR TÉCNICO ORACLE EBS SENIOR,Senior,Operaciones y Soporte,catálogo de roles,Monterrey,10.3,0,62262.38,0,74714.86,424.52,27.462,29.75,51,9,Oracle eBS,0,En banca
+68,OTC102,Consultor (inferido),1,Sin definir,,,sin dato,Monterrey,2.2,0,33985.6,0,40782.72,231.72,14.99,16.239,2,0,,0,Asignado
+69,OTC104,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,capturado,Monterrey,0.1,0,29952.08,0,35942.5,204.22,13.211,14.312,0,0,,0,Asignado
+70,OTC105,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,capturado,SALTILLO (VILLAS DE ARANJUEZ),0.1,0,29952.08,0,35942.5,204.22,13.211,14.312,0,0,,0,Asignado
+71,OTC106,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,capturado,Monterrey,0.1,0,29952.08,0,35942.5,204.22,13.211,14.312,0,0,,0,Asignado
+72,OTC107,Consultor,1,CONSULTOR FUNCIONAL ORACLE EBS SENIOR,Senior,Operaciones y Soporte,capturado,Puebla,0.1,0,14024.4,0,16829.28,95.62,6.186,6.701,0,0,,0,Asignado
+73,OTC108,Familiar,0,FAMILIAR COLABORADOR,Practicante,,sin dato,Monterrey,11.0,0,67895.25,0,81474.3,462.92,29.946,32.442,0,0,,0,No facturable
+74,OTC109,Familiar,0,FAMILIAR COLABORADOR,Practicante,,sin dato,Monterrey,,0,14030.2,0,16836.24,95.66,6.188,6.704,0,0,,0,No facturable
+75,OTC110,Consultor,1,CONSULTOR TÉCNICO .NET ANALISTA,Analista,Operaciones y Soporte,capturado,"Ensenada, Baja California",0.1,0,7450.1,0,8940.12,50.8,3.286,3.56,0,0,,0,En banca
